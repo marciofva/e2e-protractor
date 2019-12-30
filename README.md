@@ -49,7 +49,7 @@ E2E testing project with Protractor (JavaScript)
 ### Package.json scripts
 
 In `package.json` file is customized all test suites, such as:
-
+```
 ├── scripts
     ├── webdriver-update `update webdriver`
     ├── webdriver-start `update webdriver and start the server`
@@ -57,7 +57,7 @@ In `package.json` file is customized all test suites, such as:
     ├── test-search `run only search.spec.js`
     ├── test-contact_form `run only contact_form.spec.js`
     └── smoke `run all test cases`
-
+```
 
 ### Installation (Important)
 
