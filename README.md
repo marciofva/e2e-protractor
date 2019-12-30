@@ -48,15 +48,15 @@ E2E testing project with Protractor (JavaScript)
 
 ### Package.json scripts
 
-In `package.json` file is customized all test suites, such as:
+In `package.json` file is defined all test suites, such as:
 ```
 ├── scripts
-    ├── webdriver-update `update webdriver`
-    ├── webdriver-start `update webdriver and start the server`
-    ├── protractor `run all test cases`
-    ├── test-search `run only search.spec.js`
-    ├── test-contact_form `run only contact_form.spec.js`
-    └── smoke `run all test cases`
+    ├── webdriver-update
+    ├── webdriver-start
+    ├── protractor
+    ├── test-search
+    ├── test-contact_form
+    └── smoke
 ```
 
 ### Installation (Important)
@@ -84,22 +84,22 @@ npm run webdriver-update
 npm run webdriver-start
 ```
 
-- Run `protractor`:
+- Run all test cases:
 ```
 npm run protractor
 ```
 
-- Run `test-search`:
+- Run only search.spec.js:
 ```
 npm run test-search
 ```
 
-- Run `test-contact_form`:
+- Run only contact_form.spec.js:
 ```
 npm run test-contact_form
 ```
 
-- Run `smoke`:
+- Run all test cases:
 ```
 npm run smoke
 ```
