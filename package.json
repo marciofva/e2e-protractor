@@ -1,0 +1,22 @@
+{
+  "name": "automationprotractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webdriver-update": "./node_modules/protractor/bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/protractor/bin/webdriver-manager update && ./node_modules/protractor/bin/webdriver-manager start",
+    "protractor": "./node_modules/protractor/bin/protractor protractor.conf.js",
+    "test-search": "protractor --suite search",
+    "test-contact_form": "protractor --suite contact_form",
+    "smoke": "protractor --suite all"
+  },
+  "author": "Marcio Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}
